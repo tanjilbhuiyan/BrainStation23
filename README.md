@@ -1,5 +1,8 @@
-<!-- Brainstation23 DevOps Engineering Project Challenge
+Brainstation23 DevOps Engineering Project Challenge
+
+
 Task 1
+
 Create a full project with code, deployment yaml and jenkinsfile in a github/gitlab/bitbucket
 repository.
 Source should be php laravel latest code. You will take that code and make 2 dockerfile to
@@ -54,7 +57,10 @@ directory root
 ----config (contains the files to setup lightweight cluster)
 ----readme.md
 ----readme.md
+
+
 Task 2
+
 Create 1 master and 2 worker kubernetes cluster using vagrant or lxc/lxd containers. Use
 ansible or any configuration management tool of your choice to download kubernetes binaries
 and install into those vms/containers. Create a kubeadm config file and use kubeadm to
@@ -68,7 +74,10 @@ dashboard. Host it into a public git repo with appropriate readme.
 Your solution should contain instructions to setup vagrant or lxc/lxd containers.
 Your solution should contain ansible or other configuration management tool scripts to install,
 configure cluster, cni, deploy dashboard, metric server and create service account with rbac.
+
+
 Task 3
+
 Create a public git repo which will contain readme files and diagrams. You can combine them
 together or keep separate according to section.
 Design a highly available microservices architecture deployment solution. Your application may
@@ -87,4 +96,4 @@ You can imagine any sector software system you like (e-commerce, telecom, ride s
 but provide justification for why it is on-premise or in cloud or maybe hybrid. Provide advantages
 of tools and strategies that you selected over others in the market.
 A diagram of the proposed architecture would be wonderful but not strictly required. Try to
-address all the points in easy to understand English in your readme file or files. -->
+address all the points in easy to understand English in your readme file or files.
