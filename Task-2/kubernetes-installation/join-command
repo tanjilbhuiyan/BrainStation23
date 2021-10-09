@@ -1,0 +1,1 @@
+kubeadm join 192.168.12.20:6443 --token reqcbp.uchkfg2h08amkhv9 --discovery-token-ca-cert-hash sha256:cc5120d55a39bb99be2e9410308388deac6218054033c2305187f0262f707cd8 
